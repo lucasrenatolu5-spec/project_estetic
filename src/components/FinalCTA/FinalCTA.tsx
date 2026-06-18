@@ -11,7 +11,7 @@ const FinalCTA = () => {
 
   return (
     <section id="contato" className={styles.section}>
-      <div className={`container ${styles.grid}`}>
+      <div className="container">
         <motion.div
           className={styles.textCol}
           initial={{ opacity: 0, y: 24 }}
@@ -46,6 +46,7 @@ const FinalCTA = () => {
         </motion.div>
 
         <motion.div
+          className={styles.formCol}
           initial={{ opacity: 0, y: 24 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: '-80px' }}
