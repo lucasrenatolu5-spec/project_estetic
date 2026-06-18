@@ -6,6 +6,8 @@
   padding: var(--space-xl);
   border-radius: var(--radius-lg);
   box-shadow: var(--shadow-lg);
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .field {
@@ -28,6 +30,9 @@
   background: var(--color-bg);
   color: var(--color-ink);
   font-size: 0.95rem;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
   transition: border-color var(--t-fast) var(--ease-out), box-shadow var(--t-fast) var(--ease-out);
 }
 

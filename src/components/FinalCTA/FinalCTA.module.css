@@ -89,6 +89,7 @@
 
   .textCol {
     text-align: center;
+    align-items: center;
   }
 
   .description {
@@ -102,5 +103,27 @@
 
   .reassurance li {
     padding-left: var(--space-md);
+  }
+
+  .headline {
+    font-size: var(--fs-h2);
+  }
+}
+
+@media (max-width: 600px) {
+  .headline {
+    font-size: var(--fs-h3);
+    word-break: break-word;
+  }
+
+  .description {
+    font-size: var(--fs-body);
+    max-width: 100%;
+  }
+
+  .ctaRow a,
+  .ctaRow button {
+    width: 100%;
+    justify-content: center;
   }
 }
