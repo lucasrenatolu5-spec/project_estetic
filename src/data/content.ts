@@ -9,6 +9,8 @@ import type {
 import procImg1 from '../assets/images/procedimento-facial-1.jpg';
 import procImg2 from '../assets/images/procedimento-facial-2.jpg';
 import heroImg from '../assets/images/hero-especialista.jpg';
+import profJuliana from '../assets/images/profissional-juliana.jpg';
+import profFernanda from '../assets/images/profissional-fernanda.jpg';
 
 export const SITE = {
   name: 'Essência Estética',
@@ -158,14 +160,14 @@ export const TEAM: TeamMember[] = [
     name: 'Juliana Martins',
     specialty: 'Especialista em Tratamentos Corporais',
     certifications: ['Esteticista Certificada', 'Especialização em Tecnologias Corporais'],
-    photo: '',
+    photo: profJuliana,
   },
   {
     id: 'm3',
     name: 'Fernanda Lima',
     specialty: 'Especialista em Skincare Avançado',
     certifications: ['Esteticista Certificada', 'Formação em Peelings e Microagulhamento'],
-    photo: '',
+    photo: profFernanda,
   },
 ];
 
