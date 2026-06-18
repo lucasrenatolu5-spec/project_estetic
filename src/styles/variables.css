@@ -1,0 +1,77 @@
+:root {
+  /* === Cores === */
+  --color-bg: #FBF8F6;
+  --color-bg-alt: #F5EEEA;
+  --color-surface: #FFFFFF;
+  --color-ink: #2B2420;
+  --color-ink-soft: #5C4F47;
+  --color-rose: #C08673;
+  --color-rose-dark: #8A5C4C;
+  --color-rose-light: #E8D2C6;
+  --color-rose-pale: #F3E4DC;
+  --color-gold: #C9A063;
+  --color-gold-soft: #DCC093;
+  --color-line: #E7DBD3;
+  --color-success: #6B8E6B;
+
+  /* === Tipografia === */
+  --font-display: 'Fraunces', 'Georgia', serif;
+  --font-body: 'Inter', -apple-system, sans-serif;
+
+  --fs-eyebrow: 0.78rem;
+  --fs-body: 1rem;
+  --fs-body-lg: 1.125rem;
+  --fs-h6: 1.25rem;
+  --fs-h5: 1.5rem;
+  --fs-h4: 1.875rem;
+  --fs-h3: 2.25rem;
+  --fs-h2: 2.75rem;
+  --fs-h1: 3.5rem;
+  --fs-hero: 4.25rem;
+
+  /* === Espaçamento === */
+  --space-3xs: 0.25rem;
+  --space-2xs: 0.5rem;
+  --space-xs: 0.75rem;
+  --space-sm: 1rem;
+  --space-md: 1.5rem;
+  --space-lg: 2.5rem;
+  --space-xl: 4rem;
+  --space-2xl: 6rem;
+  --space-3xl: 9rem;
+
+  /* === Raios === */
+  --radius-sm: 6px;
+  --radius-md: 14px;
+  --radius-lg: 28px;
+  --radius-pill: 999px;
+
+  /* === Sombras === */
+  --shadow-sm: 0 2px 8px rgba(43, 36, 32, 0.06);
+  --shadow-md: 0 12px 32px rgba(43, 36, 32, 0.10);
+  --shadow-lg: 0 24px 64px rgba(43, 36, 32, 0.14);
+  --shadow-rose: 0 16px 40px rgba(192, 134, 115, 0.28);
+
+  /* === Container === */
+  --container-max: 1240px;
+  --container-pad: 1.5rem;
+
+  /* === Transições === */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --t-fast: 0.2s;
+  --t-base: 0.4s;
+  --t-slow: 0.7s;
+}
+
+@media (max-width: 768px) {
+  :root {
+    --fs-hero: 2.75rem;
+    --fs-h1: 2.25rem;
+    --fs-h2: 1.875rem;
+    --fs-h3: 1.5rem;
+    --fs-h4: 1.375rem;
+    --space-2xl: 3.5rem;
+    --space-3xl: 5rem;
+  }
+}

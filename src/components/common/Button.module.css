@@ -1,0 +1,71 @@
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2xs);
+  font-family: var(--font-body);
+  font-weight: 600;
+  white-space: nowrap;
+  border-radius: var(--radius-pill);
+  transition: box-shadow var(--t-base) var(--ease-out), background var(--t-base) var(--ease-out),
+    color var(--t-base) var(--ease-out), border-color var(--t-base) var(--ease-out);
+}
+
+.md {
+  padding: 0.85rem 1.75rem;
+  font-size: 0.95rem;
+}
+
+.lg {
+  padding: 1.1rem 2.25rem;
+  font-size: 1.05rem;
+}
+
+.icon {
+  display: inline-flex;
+  align-items: center;
+  font-size: 1.15em;
+}
+
+.primary {
+  background: linear-gradient(135deg, var(--color-rose) 0%, var(--color-rose-dark) 100%);
+  color: #fff;
+  box-shadow: var(--shadow-rose);
+}
+
+.primary:hover {
+  box-shadow: 0 20px 48px rgba(192, 134, 115, 0.4);
+}
+
+.secondary {
+  background: var(--color-surface);
+  color: var(--color-ink);
+  border: 1.5px solid var(--color-line);
+  box-shadow: var(--shadow-sm);
+}
+
+.secondary:hover {
+  border-color: var(--color-rose);
+  color: var(--color-rose-dark);
+}
+
+.whatsapp {
+  background: #25D366;
+  color: #fff;
+  box-shadow: 0 12px 32px rgba(37, 211, 102, 0.35);
+}
+
+.whatsapp:hover {
+  box-shadow: 0 18px 44px rgba(37, 211, 102, 0.45);
+}
+
+.ghost {
+  background: transparent;
+  color: var(--color-surface);
+  border: 1.5px solid rgba(255, 255, 255, 0.5);
+}
+
+.ghost:hover {
+  background: rgba(255, 255, 255, 0.12);
+  border-color: #fff;
+}
