@@ -6,6 +6,9 @@ import type {
   BenefitItem,
   StatItem,
 } from './types';
+import procImg1 from '../assets/images/procedimento-facial-1.jpg';
+import procImg2 from '../assets/images/procedimento-facial-2.jpg';
+import heroImg from '../assets/images/hero-especialista.jpg';
 
 export const SITE = {
   name: 'Essência Estética',
@@ -36,7 +39,7 @@ export const SERVICES: Service[] = [
     description:
       'Procedimentos minimamente invasivos que equilibram as proporções do rosto, suavizando linhas de expressão e devolvendo viço à pele.',
     benefits: ['Resultado natural', 'Procedimento rápido', 'Pouco ou nenhum tempo de recuperação'],
-    image: '/src/assets/images/procedimento-facial-1.jpg',
+    image: procImg1,
   },
   {
     id: 'bioestimulador',
@@ -44,7 +47,7 @@ export const SERVICES: Service[] = [
     description:
       'Estimula a produção natural de colágeno, melhorando firmeza, textura e elasticidade da pele de forma progressiva.',
     benefits: ['Efeito gradual e duradouro', 'Melhora a firmeza', 'Indicado para todas as idades'],
-    image: '/src/assets/images/procedimento-facial-2.jpg',
+    image: procImg2,
   },
   {
     id: 'limpeza-pele',
@@ -52,7 +55,7 @@ export const SERVICES: Service[] = [
     description:
       'Protocolo completo de higienização, extração e hidratação para uma pele renovada, equilibrada e radiante.',
     benefits: ['Remove impurezas', 'Equilibra a oleosidade', 'Pele visivelmente mais luminosa'],
-    image: '/src/assets/images/procedimento-facial-1.jpg',
+    image: procImg1,
   },
   {
     id: 'corporal-modelador',
@@ -60,7 +63,7 @@ export const SERVICES: Service[] = [
     description:
       'Tecnologia avançada para redução de medidas, melhora da textura da pele e definição corporal.',
     benefits: ['Reduz medidas', 'Melhora a textura da pele', 'Protocolo personalizado'],
-    image: '/src/assets/images/procedimento-facial-2.jpg',
+    image: procImg2,
   },
   {
     id: 'skincare-avancado',
@@ -68,7 +71,7 @@ export const SERVICES: Service[] = [
     description:
       'Combinação de ativos de alta performance e equipamentos modernos para tratar manchas, poros e sinais de envelhecimento.',
     benefits: ['Uniformiza o tom da pele', 'Reduz poros dilatados', 'Resultados visíveis desde as primeiras sessões'],
-    image: '/src/assets/images/procedimento-facial-1.jpg',
+    image: procImg1,
   },
   {
     id: 'fios-pdo',
@@ -76,7 +79,7 @@ export const SERVICES: Service[] = [
     description:
       'Técnica de sustentação que reposiciona tecidos flácidos, promovendo efeito lifting sem cirurgia.',
     benefits: ['Efeito lifting imediato', 'Estimula colágeno', 'Minimamente invasivo'],
-    image: '/src/assets/images/procedimento-facial-2.jpg',
+    image: procImg2,
   },
 ];
 
@@ -148,7 +151,7 @@ export const TEAM: TeamMember[] = [
     name: 'Dra. Ana Beatriz Souza',
     specialty: 'Especialista em Harmonização Facial',
     certifications: ['Biomedicina Estética', 'Pós-graduação em Toxina Botulínica'],
-    photo: '/src/assets/images/hero-especialista.jpg',
+    photo: heroImg,
   },
   {
     id: 'm2',
