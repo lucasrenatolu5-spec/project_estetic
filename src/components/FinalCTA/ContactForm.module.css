@@ -7,7 +7,9 @@
   border-radius: var(--radius-lg);
   box-shadow: var(--shadow-lg);
   width: 100%;
+  max-width: 100%;
   box-sizing: border-box;
+  overflow: hidden;
 }
 
 .field {
@@ -49,7 +51,9 @@
 
 .submitBtn {
   width: 100%;
+  min-width: 100%;
   margin-top: var(--space-2xs);
+  box-sizing: border-box;
 }
 
 .privacy {
