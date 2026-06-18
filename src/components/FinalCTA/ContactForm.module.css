@@ -12,6 +12,13 @@
   overflow: hidden;
 }
 
+@media (max-width: 600px) {
+  .form {
+    padding: var(--space-md);
+    border-radius: var(--radius-md);
+  }
+}
+
 .field {
   display: flex;
   flex-direction: column;
